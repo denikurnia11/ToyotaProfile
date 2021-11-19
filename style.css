@@ -1,0 +1,280 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap");
+
+body {
+    background-color: black;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+    height: 1000vh;
+}
+
+.navbar-brand {
+    width: 114px;
+    height: 36px;
+}
+
+.navbar {
+    align-items: center;
+    height: 97px;
+}
+
+.navbar .col {
+    align-items: center;
+    height: 89px;
+}
+.navbar .col p {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 36.68px;
+}
+
+ul li {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 13.25px;
+}
+
+/* Header */
+.header {
+    margin-top: 119px;
+}
+
+.header .col h1 {
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 73.37px;
+}
+
+.header-text {
+    margin-top: 58px;
+    margin-bottom: 93px;
+    width: 760px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 13.25px;
+}
+/* End Header */
+.home-image {
+    background-image: url("img/SetirHome.png");
+    background-position: center;
+    background-size: cover;
+    width: auto;
+    height: 547px;
+}
+
+/* Info */
+.info {
+    margin-top: 81px;
+}
+
+/* .info .border-end {
+    height: 69px;
+} */
+
+.info h1 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24.46px;
+    width: 202px;
+}
+
+.info .head {
+    margin-top: 32px;
+    margin-bottom: 12px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14.27px;
+}
+.info .alamat {
+    width: 233px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14.27px;
+}
+
+.tanggal {
+    margin-top: 35px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    height: 69px;
+}
+
+.tanggal p:nth-child(odd) {
+    margin-left: 108px;
+    margin-bottom: 48px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 14.27px;
+}
+.tanggal p:nth-child(even) {
+    margin-left: 108px;
+    margin-right: 129px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24.46px;
+}
+
+.saham {
+    margin-left: 105px;
+}
+
+.saham h1 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24.46px;
+    width: 139px;
+    margin-bottom: 15px;
+}
+
+.saham h2 {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 36.68px;
+    margin-bottom: 20px;
+}
+
+.saham p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14.27px;
+    margin-bottom: 58px;
+}
+/* End Info */
+
+/* Visi Misi */
+.visi-misi {
+    margin-top: 31.97px;
+}
+
+.visi-misi .vision,
+.visi-misi .mission {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 36.68px;
+    margin-bottom: 46px;
+}
+
+.visi-misi .vission-text,
+.visi-misi .mission-text {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14.27px;
+}
+.visi-misi .mission {
+    margin-top: 37px;
+    margin-bottom: 33px;
+}
+
+/* End Visi Misi */
+
+/* Manufacture */
+.manufacture {
+    margin-top: 57px;
+}
+.manufacture .head {
+    margin-top: 56px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 36.68px;
+}
+
+.manufacture .karawang,
+.manufacture .sunter {
+    width: 134px;
+    height: 27px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14.27px;
+    margin-top: 43px;
+    margin-bottom: 51px;
+}
+
+.manufacture .sunter {
+    opacity: 50%;
+}
+
+.deskripsi {
+    margin-top: 57px;
+    margin-left: 390px;
+    width: 678px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14.27px;
+}
+/* Slider */
+.slider {
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+}
+
+.slides input {
+    display: none;
+}
+
+.slide {
+    transition: 2s;
+}
+
+.slide p {
+    margin-top: 57px;
+    margin-left: 350px;
+    width: 678px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14.27px;
+}
+
+.slide img {
+    width: 100vw;
+}
+
+/* Navigasi */
+.navigation-manual {
+    position: absolute;
+    width: 800px;
+    margin-top: 630px;
+    margin-left: 288px;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-manual .manual-btn {
+    border: 2px solid white;
+    background: white;
+    padding: 19px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.navigation-manual .manual-btn:not(:last-child) {
+    margin-right: 14px;
+}
+
+.navigation-manual .manual-btn:hover {
+    border: 2px solid #ec8e00;
+    background: #ec8e00;
+}
+
+#radio1:checked ~ .first {
+    margin-left: 0;
+}
+
+#radio1:checked ~ .navigation-manual .manual-btn:first-child,
+#radio2:checked ~ .navigation-manual .manual-btn:last-child {
+    border: 2px solid #ec8e00;
+    background: #ec8e00;
+}
+
+#radio2:checked ~ .first {
+    margin-left: -101.3%;
+}
+/* End Navigasi */
+/* End Slider */
+/* End Manufacture */

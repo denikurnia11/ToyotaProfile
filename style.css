@@ -38,6 +38,11 @@ ul li {
     line-height: 13.25px;
 }
 
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
 /* Header */
 .header {
     margin-top: 119px;

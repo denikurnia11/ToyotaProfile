@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap");
 
 body {
-    background-color: black;
+    background-color: #121013;
     font-family: "Montserrat", sans-serif;
     box-sizing: border-box;
     height: 1000vh;
@@ -283,3 +283,54 @@ ul li a {
 /* End Navigasi */
 /* End Slider */
 /* End Manufacture */
+
+/* Milestone */
+.milestone {
+    margin-top: 160px;
+}
+
+.milestone .head {
+    margin-top: 77.97px;
+    margin-bottom: 113px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 36.68px;
+}
+
+.milestone .tahun {
+    color: #ec8e00;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24.46px;
+    margin-top: 50px;
+    margin-bottom: -30px;
+}
+
+.milestone .tanggal {
+    color: #ec8e00;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 12.23px;
+    margin-bottom: -25px;
+    border-left: none;
+    border-right: none;
+}
+
+.milestone .text {
+    width: 442px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14.27px;
+}
+.swiper {
+    width: 1000px;
+    height: 350px;
+    color: white;
+}
+
+/* End Milestone */
+/* Commitment */
+.commitment {
+    margin-top: 142px;
+}
+/* End Commitment */

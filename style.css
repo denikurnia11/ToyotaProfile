@@ -500,7 +500,7 @@ ul li a {
 /* End Contact */
 
 /* Ukuran layar 1920x1080 */
-@media only screen and (min-width: 1920px) {
+@media only screen and (min-width: 1900px) {
     .visi-misi .vission-text,
     .visi-misi .mission-text {
         width: 578px;

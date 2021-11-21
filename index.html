@@ -582,23 +582,9 @@
                         >
                             <div
                                 class="swiper-wrapper"
-                                style="
-                                    transition-duration: 0ms;
-                                    transform: translate3d(-1396px, 0px, 0px);
-                                "
                                 id="swiper-wrapper-bdd28210aae10f85ed"
                                 aria-live="polite"
                             >
-                                <div
-                                    class="swiper-slide swiper-slide-duplicate"
-                                    data-swiper-slide-index="6"
-                                    style="width: 435.333px; margin-right: 18px"
-                                    role="group"
-                                    aria-label="7 / 9"
-                                >
-                                    <div class="card-vehicle">7</div>
-                                </div>
-
                                 <div
                                     class="swiper-slide swiper-slide-active"
                                     data-swiper-slide-index="0"
@@ -624,7 +610,6 @@
                                 <div
                                     class="swiper-slide swiper-slide-next"
                                     data-swiper-slide-index="1"
-                                    style="width: 435.333px; margin-right: 18px"
                                     role="group"
                                     aria-label="2 / 9"
                                 >
@@ -647,7 +632,6 @@
                                 <div
                                     class="swiper-slide"
                                     data-swiper-slide-index="2"
-                                    style="width: 435.333px; margin-right: 18px"
                                     role="group"
                                     aria-label="3 / 9"
                                 >
@@ -670,7 +654,6 @@
                                 <div
                                     class="swiper-slide"
                                     data-swiper-slide-index="3"
-                                    style="width: 435.333px; margin-right: 18px"
                                     role="group"
                                     aria-label="4 / 9"
                                 >
@@ -693,7 +676,6 @@
                                 <div
                                     class="swiper-slide"
                                     data-swiper-slide-index="4"
-                                    style="width: 435.333px; margin-right: 18px"
                                     role="group"
                                     aria-label="5 / 9"
                                 >
@@ -716,7 +698,6 @@
                                 <div
                                     class="swiper-slide"
                                     data-swiper-slide-index="5"
-                                    style="width: 435.333px; margin-right: 18px"
                                     role="group"
                                     aria-label="6 / 9"
                                 >
@@ -739,7 +720,6 @@
                                 <div
                                     class="swiper-slide"
                                     data-swiper-slide-index="6"
-                                    style="width: 435.333px; margin-right: 18px"
                                     role="group"
                                     aria-label="7 / 9"
                                 >
@@ -761,14 +741,7 @@
                                 </div>
                             </div>
 
-                            <div
-                                class="
-                                    swiper-pagination
-                                    swiper-pagination-clickable
-                                    swiper-pagination-bullets
-                                    swiper-pagination-horizontal
-                                "
-                            >
+                            <div class="swiper-pagination">
                                 <span
                                     class="
                                         swiper-pagination-bullet
@@ -796,6 +769,9 @@
                                 aria-live="assertive"
                                 aria-atomic="true"
                             ></span>
+                            <!-- If we need navigation buttons -->
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
                         </div>
                     </div>
                 </div>
@@ -992,13 +968,13 @@
             import Swiper from "https://unpkg.com/swiper@7/swiper-bundle.esm.browser.min.js";
             var swiper = new Swiper(".mySwiper", {
                 slidesPerView: 4,
-                spaceBetween: 2,
+                spaceBetween: 0,
                 slidesPerGroup: 1,
                 loop: true,
                 autoplay: {
                     delay: 2000,
                 },
-                loopFillGroupWithBlank: true,
+                loopFillGroupWithBlank: false,
                 pagination: {
                     el: ".swiper-pagination",
                     clickable: true,

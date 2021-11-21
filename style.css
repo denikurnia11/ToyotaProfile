@@ -396,24 +396,39 @@ ul li a {
     margin-top: 94px;
 }
 
+.vehicle .swiper-button-prev {
+    margin-top: -50px;
+    margin-left: -12px;
+}
+
+.vehicle .swiper-button-next {
+    margin-right: -12px;
+    margin-top: -50px;
+}
+
+.vehicle .swiper-slide {
+    display: flex;
+    justify-content: center;
+}
+
 .vehicle .head {
     margin-top: 68px;
     margin-bottom: 68px;
 }
 
 .card-vehicle {
-    width: 206px;
-    height: 258px;
-    border: 1px solid white;
+    width: 180px;
+    height: 238px;
+    border: 1px solid rgb(104, 104, 104);
 }
 
 .card-vehicle img {
-    width: 206px;
-    height: 153px;
+    width: 180px;
+    height: auto;
 }
 
 .mySwiper {
-    width: 900px;
+    width: 1000px;
 }
 
 .merk {

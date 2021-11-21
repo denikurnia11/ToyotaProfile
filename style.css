@@ -438,7 +438,7 @@ ul li a {
     font-size: 36px;
     font-weight: 700;
     line-height: 36.68px;
-    margin: 96px 0 121px 169px;
+    margin: 96px 0 121px 0;
 }
 
 .contact .border-top {
@@ -498,3 +498,26 @@ ul li a {
     line-height: 13.25px;
 }
 /* End Contact */
+
+/* Ukuran layar 1920x1080 */
+@media only screen and (min-width: 1920px) {
+    .visi-misi .vission-text,
+    .visi-misi .mission-text {
+        width: 578px;
+        margin-left: 365px;
+    }
+    .slide p {
+        margin-top: 57px;
+        margin-left: 620px;
+    }
+    .navigation-manual {
+        margin-top: 830px;
+        margin-left: 560px;
+    }
+    .milestone .swiper {
+        margin-right: 120px !important;
+    }
+    textarea {
+        width: 565px;
+    }
+}

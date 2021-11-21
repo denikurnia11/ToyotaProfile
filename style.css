@@ -407,6 +407,11 @@ ul li a {
     border: 1px solid white;
 }
 
+.card-vehicle img {
+    width: 206px;
+    height: 153px;
+}
+
 .mySwiper {
     width: 900px;
 }

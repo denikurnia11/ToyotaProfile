@@ -4,7 +4,7 @@ body {
     background-color: #121013;
     font-family: "Montserrat", sans-serif;
     box-sizing: border-box;
-    height: 1000vh;
+    height: 860vh;
 }
 
 .navbar-brand {
@@ -165,6 +165,8 @@ ul li a {
 
 .visi-misi .vission-text,
 .visi-misi .mission-text {
+    width: 578px;
+    margin-left: 295px;
     font-size: 14px;
     font-weight: 700;
     line-height: 14.27px;
@@ -180,6 +182,15 @@ ul li a {
 .manufacture {
     margin-top: 57px;
 }
+
+.manufacture button {
+    margin: 43px 0 51px 0;
+    width: 140px;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 14.27px;
+}
+
 .manufacture .head {
     margin-top: 56px;
     font-size: 36px;
@@ -333,4 +344,157 @@ ul li a {
 .commitment {
     margin-top: 142px;
 }
+
+.commitment .head-text {
+    margin-top: 240px;
+}
+
+.commitment .head-text h1 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 36.68px;
+    margin-bottom: 33px;
+}
+
+.commitment .head-text p {
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 28.33px;
+    width: 403px;
+}
+
+.card {
+    width: 256px;
+    height: 254px;
+    background-color: #121013;
+    border: 1px solid white;
+}
+
+.card-first {
+    margin-top: 85px;
+    margin-bottom: 11px;
+}
+
+.card-head {
+    margin: 21px 0 14px 19px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14.27px;
+}
+
+.card-text {
+    margin: 0 17px 23px 19px;
+    width: 220px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 12.23px;
+}
 /* End Commitment */
+
+/* Vehicle */
+.vehicle {
+    margin-top: 94px;
+}
+
+.vehicle .head {
+    margin-top: 68px;
+    margin-bottom: 68px;
+}
+
+.card-vehicle {
+    width: 206px;
+    height: 258px;
+    border: 1px solid white;
+}
+
+.mySwiper {
+    width: 900px;
+}
+
+.merk {
+    margin-top: 32px;
+    margin-bottom: 49px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24.46px;
+}
+/* End Vehicle */
+
+/* Contact */
+.contact {
+    margin-top: 139px;
+}
+
+.contact-image {
+    background-image: url("img/Contact_11.png");
+    background-position: center;
+    background-size: cover;
+    width: auto;
+    height: 254px;
+    overflow: hidden;
+}
+
+.contact .head-text {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 36.68px;
+    margin: 96px 0 121px 169px;
+}
+
+.contact .border-top {
+    margin-bottom: 43px;
+}
+
+.contact .content {
+    margin-top: 60px;
+}
+
+.contact .judul {
+    margin-bottom: 14px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18.34px;
+}
+
+.contact .text {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 12.23px;
+}
+
+.judul-form {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18.34px;
+}
+
+.contact-form label {
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 11.21px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    background: transparent;
+    color: white;
+    border-width: 1px;
+}
+
+.contact-form button {
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 13.25px;
+    height: 40px;
+    width: 100px;
+    margin-top: 14px;
+}
+
+.contact-form .text {
+    margin: 14px 0 16px 0;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 13.25px;
+}
+/* End Contact */
